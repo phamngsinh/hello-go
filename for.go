@@ -37,6 +37,9 @@ func main() {
 	for key,value := range slice{
 		fmt.Println("key:",key,"value:",value)
 	}
+	for key:=range arr{
+		fmt.Println(arr[key])
+	}
 
 
 }
